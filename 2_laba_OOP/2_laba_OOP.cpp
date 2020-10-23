@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include "conio.h"
 
 using namespace std;
 
@@ -150,10 +149,10 @@ int main() {
         printf("\n'tochka2.reset();'\n");
         tochka2.reset();
 
-        printf("\n'Point *tochka = new Point();'\n");
+        printf("\n'Point* tochka01 = new Point();'\n");
         Point* tochka01 = new Point();
 
-        printf("\n'Point* tochka = new Point(3, 6);'\n");
+        printf("\n'Point* tochka02 = new Point(3, 6);'\n");
         Point* tochka02 = new Point(3, 6);
 
         printf("\n'Point* tochka03 = new Point(*tochka02);'\n");
